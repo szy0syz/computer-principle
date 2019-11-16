@@ -6,6 +6,8 @@
 
 ![double](./assets/doubleLinkedList/cp_DoubleLinkedList.png)
 
+![0](./assets/doubleLinkedList/double-linked-list-0.png)
+
 ![1](./assets/doubleLinkedList/20171014-single-link.png)
 
 ![double](./assets/doubleLinkedList/20171014-single-link-insert.gif)

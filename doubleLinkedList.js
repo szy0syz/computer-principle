@@ -104,8 +104,8 @@ class DoubleLinkedList {
       //* 删除的是中间节点
       node.prev.next = node.next;
       node.next.prev = node.prev;
+      this.size -= 1;
     }
-    this.size -= 1;
     return node;
   }
 
@@ -142,36 +142,34 @@ class DoubleLinkedList {
     while (p) {
       line += p.__str();
       p = p.next;
-      if (p) { line += ' => '; }
+      if (p) {
+        line += ' => ';
+      }
     }
     console.log(line);
   }
 }
 
-const nodes = [new Node(1, 1), new Node(1, 2), new Node(1, 3), new Node(1, 4)];
+// const nodes = [new Node(1, 1), new Node(1, 2), new Node(1, 3), new Node(1, 4)];
 
-const list = new DoubleLinkedList();
+// const list = new DoubleLinkedList();
 
-// list.__add_head(nodes[1]);
+// list.push(nodes[1]);
 // list.print();
-// list.__add_head(nodes[0]);
+// list.unshift(nodes[0]);
 // list.print();
-// list.__add_tail(nodes[2]);
+// list.push(nodes[2]);
 // list.print();
-// list.__add_tail(nodes[3]);
+// list.push(nodes[3]);
+// list.print();
+// list.remove();
+// list.print();
+// list.pop();
+// list.print();
+// list.remove();
 // list.print();
 
-list.push(nodes[1]);
-list.print();
-list.unshift(nodes[0]);
-list.print();
-list.push(nodes[2]);
-list.print();
-list.push(nodes[3]);
-list.print();
-list.remove();
-list.print();
-list.pop();
-list.print();
-list.remove();
-list.print();
+module.exports = {
+  Node,
+  DoubleLinkedList,
+};

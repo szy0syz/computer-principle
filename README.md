@@ -17,3 +17,7 @@
 ![double](./assets/doubleLinkedList/20171014-insert-chain.gif)
 
 ![double](./assets/doubleLinkedList/20171014-remove-chain.gif)
+
+## FIFO缓存置换算法
+
+> 先进先出算法

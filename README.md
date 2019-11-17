@@ -8,8 +8,6 @@
 
 ![0](./assets/doubleLinkedList/double-linked-list-0.png)
 
-![1](./assets/doubleLinkedList/20171014-single-link.png)
-
 ![double](./assets/doubleLinkedList/20171014-single-link-insert.gif)
 
 ![double](./assets/doubleLinkedList/20171014-remove-node.gif)
